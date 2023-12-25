@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toffee style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='cracker' id='cracker'>
+        <div class='cracker-message'>
+          <div class='cracker-message__inner'>
+            Merry christmas
+            <br>
+            From
+            <br>
+            Sakshi!
+          </div>
+        </div>
+        <div class='cracker-left'>
+          <div class='cracker-left-inner'>
+            <div class='cracker-left__mask-top'></div>
+            <div class='cracker-left__mask-bottom'></div>
+            <div class='cracker-left__tail'></div>
+            <div class='cracker-left__end'></div>
+            <div class='cracker-left__body'></div>
+            <div class='cracker-left-zigzag'>
+              <div class='cracker-left-zigzag__item'></div>
+              <div class='cracker-left-zigzag__item'></div>
+              <div class='cracker-left-zigzag__item'></div>
+              <div class='cracker-left-zigzag__item'></div>
+              <div class='cracker-left-zigzag__item'></div>
+            </div>
+          </div>
+        </div>
+        <div class='cracker-right'>
+          <div class='cracker-right-inner'>
+            <div class='cracker-right__mask-top'></div>
+            <div class='cracker-right__mask-bottom'></div>
+            <div class='cracker-right__tail'></div>
+            <div class='cracker-right__end'></div>
+            <div class='cracker-right__body'></div>
+            <div class='cracker-right-zigzag'>
+              <div class='cracker-right-zigzag__item'></div>
+              <div class='cracker-right-zigzag__item'></div>
+              <div class='cracker-right-zigzag__item'></div>
+              <div class='cracker-right-zigzag__item'></div>
+              <div class='cracker-right-zigzag__item'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class='hover-me-text'>Take your Candy!</p>
+      <script>
+        $('#cracker').hover( function() {
+        $('.hover-me-text').stop(true, true).fadeToggle(300, "linear");
+        });
+      </script>
+</body>
+</html>
